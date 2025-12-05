@@ -1,0 +1,45 @@
+.bootContainer {
+  position: fixed;
+  inset: 0;
+  background-color: var(--color-bg-dark); /* Deep dark background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Share Tech Mono', monospace; /* Monospace font for terminal feel */
+  color: var(--color-accent-green); /* Classic green terminal text */
+  font-size: 1.125rem; /* text-lg */
+  line-height: 1.75rem; /* leading-7 */
+  padding: 1rem;
+  z-index: 50;
+}
+
+.bootTextContent {
+  display: flex;
+  flex-direction: column;
+  max-width: 42rem; /* max-w-2xl */
+  width: 100%;
+  padding: 1rem;
+}
+
+.pastMessage {
+  color: var(--color-accent-green);
+  opacity: 0.75;
+  margin-bottom: 0.5rem;
+}
+
+.currentMessage {
+  color: var(--color-accent-green);
+}
+
+.cursor {
+  margin-left: 0.25rem;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) { /* md */
+  .bootContainer {
+    font-size: 1.25rem; /* text-xl */
+    line-height: 1.75rem; /* leading-7 */
+  }
+}

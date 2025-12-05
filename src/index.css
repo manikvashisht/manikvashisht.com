@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;700&family=Share+Tech+Mono&display=swap');
+
+/* Define a professional neon green color palette */
+:root {
+  --color-bg-dark: #0A0A0A; /* Deep Space Black */
+  --color-bg-medium: #161B22; /* Darker Gray for panels/borders */
+  --color-bg-light: #1E222A; /* Lighter Gray for content background */
+  --color-text-light: #E0E0E0; /* Off-white for general text */
+  --color-text-medium: #A8A8A8; /* Medium gray for secondary text */
+  --color-accent-green: #00FF00; /* Pure Neon Green */
+  --color-accent-green-dark: #00CC00; /* Darker Neon Green */
+  --color-accent-red: #FF0000; /* Alert Red */
+  --color-accent-red-dark: #CC0000; /* Darker Alert Red */
+  --color-link: #33CCFF; /* Electric Blue for links */
+
+  /* Shadows for depth */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Managed by main layout */
+  font-family: 'Chakra Petch', sans-serif;
+  color: var(--color-text-light);
+  background: var(--color-bg-dark);
+}
+
+/* Custom Scrollbar (for elements with overflow-y-auto) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--color-bg-medium);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-accent-green);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-green-dark);
+}

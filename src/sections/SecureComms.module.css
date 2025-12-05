@@ -1,0 +1,65 @@
+.secureCommsContainer {
+  padding: 1.5rem;
+  background-color: var(--color-bg-medium); /* bg-gray-800 */
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: var(--shadow-md); /* shadow-lg */
+  border: 1px solid var(--color-accent-green); /* border-red-700 */
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700; /* font-bold */
+  color: var(--color-accent-green); /* text-red-500 */
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--color-bg-light); /* border-red-700 */
+  padding-bottom: 0.5rem;
+}
+
+.sectionSubtitle {
+  color: var(--color-text-medium); /* text-gray-400 */
+  font-size: 1.125rem; /* text-lg */
+}
+
+.commsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.commsItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--color-bg-dark); /* bg-gray-800 */
+  padding: 0.75rem; /* p-3 */
+  border-radius: 0.375rem; /* rounded-md */
+  border: 1px solid var(--color-bg-light); /* border-gray-700 */
+}
+
+.commsIcon {
+  height: 1.5rem; /* h-6 */
+  width: 1.5rem; /* w-6 */
+  color: var(--color-accent-green); /* text-red-400 */
+  flex-shrink: 0;
+}
+
+.commsText {
+  font-size: 1.125rem; /* text-lg */
+  color: var(--color-text-light); /* text-gray-300 */
+  line-height: 1.5;
+}
+
+.commsLabel {
+  font-weight: 600; /* font-semibold */
+  color: var(--color-accent-green); /* text-red-300 */
+}
+
+.commsLink {
+  color: var(--color-link); /* text-blue-400 */
+  text-decoration: underline;
+}
+
+.commsLink:hover {
+  color: var(--color-link); /* hover:text-blue-300 */
+}
