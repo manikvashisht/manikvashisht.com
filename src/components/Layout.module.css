@@ -1,7 +1,7 @@
 .mainContainer {
   position: relative;
   display: flex;
-  min-height: 100vh;
+  height: 100vh; /* Changed from min-height: 100vh */
   background-color: var(--color-bg-dark); /* Dark background */
   color: var(--color-text-light); /* Light gray text */
 }
