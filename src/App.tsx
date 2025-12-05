@@ -1,7 +1,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { SecureBoot } from './components/SecureBoot';
-import { FaceScanAnimation } from './components/FaceScanAnimation'; // Import the new component
+import { FaceScanAnimation } from './components/FaceScanAnimation';
+import { AudioReadyOverlay } from './components/AudioReadyOverlay'; // Import the new component
 import { Layout } from './components/Layout';
 import { Navigation } from './components/Navigation';
 import { MissionBriefingPopup } from './components/MissionBriefingPopup';
@@ -14,7 +15,8 @@ import { OperativeSkills } from './sections/OperativeSkills';
 import { SecureComms } from './sections/SecureComms';
 
 function App() {
-  const [scanning, setScanning] = useState(true); // New state for scan animation
+  const [audioReady, setAudioReady] = useState(false); // New state for audio readiness
+  const [scanning, setScanning] = useState(false); // Scan animation starts AFTER audio is ready
   const [booting, setBooting] = useState(false); // SecureBoot starts after scan
   const [popupVisible, setPopupVisible] = useState(false);
   const [popupDismissed, setPopupDismissed] = useState(false);
@@ -35,6 +37,13 @@ function App() {
   }, []);
 
   // Conditional rendering for the initial load sequences
+  if (!audioReady) {
+    return <AudioReadyOverlay onReady={() => {
+      setAudioReady(true);
+      setScanning(true); // Start scanning only after audio is ready
+    }} />;
+  }
+
   if (scanning) {
     return <FaceScanAnimation onScanComplete={() => {
         setScanning(false);
