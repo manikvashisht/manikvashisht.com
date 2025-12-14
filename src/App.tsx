@@ -1,73 +1,41 @@
-import { useState, useEffect, useCallback } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { SecureBoot } from './components/SecureBoot';
-import { FaceScanAnimation } from './components/FaceScanAnimation';
-import { AudioReadyOverlay } from './components/AudioReadyOverlay'; // Import the new component
-import { Layout } from './components/Layout';
-import { Navigation } from './components/Navigation';
-import { MissionBriefingPopup } from './components/MissionBriefingPopup';
-import { useScrollTrigger } from './hooks/useScrollTrigger';
-
-// Import actual section components
-import { ProfileIntel } from './sections/ProfileIntel';
-import { ClassifiedMissions } from './sections/ClassifiedMissions';
-import { OperativeSkills } from './sections/OperativeSkills';
-import { SecureComms } from './sections/SecureComms';
+import { useState } from 'react';
+import { Header } from './components/Header';
+import { Hero } from './components/Hero';
+import { ChatInterface } from './components/ChatInterface';
+import { Experience } from './components/Experience';
+import { MouseSpotlight } from './components/MouseSpotlight';
 
 function App() {
-  const [audioReady, setAudioReady] = useState(false); // New state for audio readiness
-  const [scanning, setScanning] = useState(false); // Scan animation starts AFTER audio is ready
-  const [booting, setBooting] = useState(false); // SecureBoot starts after scan
-  const [popupVisible, setPopupVisible] = useState(false);
-  const [popupDismissed, setPopupDismissed] = useState(false);
+    const [view, setView] = useState<'home' | 'chat'>('home');
+    const [initialQuery, setInitialQuery] = useState('');
 
-  const { triggered: scrollTriggered, scrollContainerRef } = useScrollTrigger(0.95);
+    const handleSearch = (query: string) => {
+        setInitialQuery(query);
+        setView('chat');
+    };
 
-  useEffect(() => {
-    if (scrollTriggered && !popupDismissed) {
-      setPopupVisible(true);
-    } else if (!scrollTriggered && popupVisible) {
-      setPopupVisible(false); // Hide if scrolled back up
-    }
-  }, [scrollTriggered, popupDismissed, popupVisible]);
+    return (
+        <div className="min-h-screen bg-[#f8f9fa] selection:bg-black selection:text-white pb-20 font-sans">
 
-  const handleDismissPopup = useCallback(() => {
-    setPopupDismissed(true);
-    setPopupVisible(false);
-  }, []);
+            {/* 1. Fixed Elements */}
+            <MouseSpotlight />
+            <Header />
 
-  // Conditional rendering for the initial load sequences
-  if (!audioReady) {
-    return <AudioReadyOverlay onReady={() => {
-      setAudioReady(true);
-      setScanning(true); // Start scanning only after audio is ready
-    }} />;
-  }
+            {/* 2. Main View Switch */}
+            {view === 'home' ? (
+                <>
+                    <Hero onSearch={handleSearch} />
+                    <Experience />
+                </>
+            ) : (
+                <ChatInterface
+                    initialQuery={initialQuery}
+                    onBack={() => setView('home')}
+                />
+            )}
 
-  if (scanning) {
-    return <FaceScanAnimation onScanComplete={() => {
-        setScanning(false);
-        setBooting(true); // Start boot sequence after scan
-    }} />;
-  }
-
-  if (booting) {
-    return <SecureBoot onBootComplete={() => setBooting(false)} />;
-  }
-
-  return (
-    <Router>
-      <Layout navigation={<Navigation />} scrollContainerRef={scrollContainerRef}>
-        <Routes>
-          <Route path="/" element={<ProfileIntel />} />
-          <Route path="/missions" element={<ClassifiedMissions />} />
-          <Route path="/skills" element={<OperativeSkills />} />
-          <Route path="/comms" element={<SecureComms />} />
-        </Routes>
-      </Layout>
-      <MissionBriefingPopup isVisible={popupVisible} onDismiss={handleDismissPopup} />
-    </Router>
-  );
+        </div>
+    );
 }
 
 export default App;

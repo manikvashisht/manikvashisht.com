@@ -49,13 +49,13 @@ export const classifiedData: ClassifiedData = {
     contact: {
       email: "manik.vashisht89@gmail.com",
       secureCommsId: "+1 614-956-9073 (Encrypted Channel)",
-      location: "Dublin, OH, Earth Sector",
+      location: "Columbus, OH, Earth Sector",
     },
     missionDirective:
       "An evolving AI Engineer and technical leader, actively integrating AI/ML principles into robust cloud-native platforms. Focused on bridging advanced analytical models with scalable, secure deployment architectures. Dedicated to continuous learning, exploring emerging AI technologies, and leveraging established engineering expertise to drive impactful solutions.",
   },
   skills: [
-    
+
     {
       category: "SYSTEM ARCHITECTURES & CLOUD INFRA",
       skills: [

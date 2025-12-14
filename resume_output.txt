@@ -1,0 +1,286 @@
+ 
+MANIK 
+VASHISHT 
+A
+PPLICATION
+ D
+EVELOPMENT
+ M
+ANAGER
+  
+CONTACT 
+ 
+ 
++ 1 614 -956-90 73  
+ 
+ 
+m an ik.vash ish t89@ g m ail.co m  
+ 
+ 
+D u b lin , O H  4 30 16 
+CAREER OBJECTIVE 
+ 
+D etail-o rien ted  so ftw are 
+d evelo p m en t p ro fessio n al an d  team  
+lead er w ith  h isto ry 
+o f p ro p o sin g  en h an cem en ts th at 
+im p ro ve d esig n s. H ig h ly effective at 
+an alyzin g  
+existin g  system s to  d isco ver issu es 
+an d  d evelo p in g  creative so lu tio n s 
+th at satisfy 
+b u sin ess an d  cu sto m er n eed s. 
+ 
+SKILLS 
+ 
+J
+AVA
+, J
+AVASCRIPT
+, T
+YPESCRIPT
+,  S
+PRING
+B
+OOT
+, A
+NGULAR
+ 2.0+, 
+N
+ODE
+J
+S
+,  P
+IVOTAL
+ C
+LOUD
+ F
+OUNDRY
+, A
+MAZON
+ W
+EB
+ S
+ERVICES
+, GKE , 
+D
+EV
+O
+PS
+, A
+GILE
+, G
+IT
+, C
+ONCOURSE
+, A
+PIGEE
+, IBM W
+EB
+S
+ERVICES
+, 
+D
+ATABASES
+(DB2,MYSQL,O
+RACLE
+), K
+UBERNETES
+, D
+OCKER
+, 
+A
+NTICIPATING
+ & P
+ROBLEM
+ S
+OLVING
+, C
+OMMUNICATION
+, 
+R
+ELATIONSHIP
+-B
+UILDING
+, D
+EALING
+ 
+W ITH
+ P
+RESSURE
+, P
+RIORITIZE
+ & 
+M
+ANAGE
+ T
+IME
+ 
+ 
+ 
+EXPERIENCE 
+ 
+ 
+ 
+  
+Septem ber 2023 - Current 
+Sr Engineer Application Development and Maintenance  
+● Led cross-functional engineering teams in the design, 
+deployment, and governance of cloud-native platforms, 
+including Kubernetes (GKE). 
+● Architect designs of new implementations within current 
+stack (Springboot and Angular) 
+● Directed day-to-day technical operations, proactively 
+removing blockers, managing sprint priorities, and 
+ensuring timely delivery of high-impact features. 
+● Mentored and coached junior engineers, fostering a 
+culture of continuous learning, innovation, and 
+accountability across geographically distributed teams. 
+● Championed DevSecOps practices, CI/CD pipelines 
+(Concourse) 
+● Collaborated with Security, Architecture, and Application 
+teams to embed security into the SDLC and ensure 
+compliance. 
+● Defined and executed platform roadmaps, aligning 
+engineering efforts with strategic business goals and 
+translating high-level objectives into actionable technical 
+plans. 
+● Managed vendor relationships and platform investments, 
+evaluating emerging technologies. 
+● Led incident response and root cause analysis, driving 
+continuous improvement in platform reliability, 
+performance, and disaster recovery strategies. 
+----------------Page (0) Break----------------
+● Established engineering best practices, including code 
+quality standards, documentation protocols, and 
+architectural guidelines for scalable, cloud-native systems. 
+● Promoted cross-functional alignment, serving as a liaison 
+between engineering and business stakeholders to ensure 
+transparency, shared goals, and delivery excellence. 
+ 
+ 
+D ecem ber 2021 - Septem ber 2023 
+Application Development Manager (Accenture) 
+ 
+● Handling $5M portfolio delivery 
+● Evaluated, identified and developed software solutions 
+● Planning, tracking and scheduling software deliverables 
+● Locate and direct solutions for critical challenges 
+● Evaluated proposals to assess project feasibility and 
+requirements 
+● Tech Lead for software development projects 
+● Document and record every aspect of an application or 
+software 
+● Train and oversee the activities of the members of the 
+development team 
+● Develop good working relationships with other 
+employees, such as Product Managers, Programmers 
+● Assigned and reviewed work of systems analysts, 
+programmers and other computer-related workers 
+● Developed full stack systems in Angular, SpringBoot. Also 
+developed on DevOps and Cloud Technologies 
+● Recruited, hired, trained and supervised staff or 
+participated in staffing decisions 
+● Planned to plan and coordinate project activity 
+● Demonstrated ability to manage multiple tasks while 
+remaining adaptable and flexible 
+● Defined problems, collected data, established facts and 
+validated conclusions. 
+● Prepared reports or correspondence concerning project 
+specifications, activities or status. 
+ 
+  
+D ecem ber 2019 - N ovem ber 2021 
+Application Development Associate Manager (Accenture) 
+U S 
+ 
+● D esig n  an d  D evelo p m en t o f R estfu l Sp rin g  B o o t Services 
+● Im p lem en ted  sp rin g  clo u d  services like H ystrix, E u reka, 
+● Jen kin s / C o n co u rse is u sed  as a p ip elin e 
+● D esig n  an d  D evelo p ed  A n g u lar JS 2.0  ap p licatio n  an d  in teg rated  it 
+w ith  R estfu l Sp rin g  B o o t A p p s 
+----------------Page (1) Break----------------
+● Im p lem en ted  SSO  w ith  O kta, A n g u lar SP A  an d  P C F SSO  Service 
+● A n alyzed  p erfo rm an ce d ata to  id en tify areas o f im p ro vem en t. 
+● Su g g ested  ch an g es to  stan d ard  o p eratio n al an d  w o rkin g  p ractices, 
+p ro vid in g  lead ersh ip  n eed ed  to  d evelo p  an d  im p lem en t co n tin u o u s 
+im p ro vem en ts. 
+● C o n d u cted  p erfo rm an ce review s to  m easu re em p lo yee g ro w th  an d  
+skills. 
+● D eleg ated  tasks to  team  m em b ers acco rd in g  to  p ro ject 
+req u irem en ts an d  em p lo yee stren g th s. 
+● D evelo p ed  an d  u tilized  team  b u ild in g  exercises to  p ro m o te 
+w o rkp lace syn erg y an d  p ro d u ctivity. 
+● Im p lem en ted  in cen tive p ro g ram s to  m o tivate team  m em b ers. 
+● C o llab o rated  w ith  o th er d ep artm en ts to  en su re su ccessfu l 
+co m p letio n  o f p ro jects. 
+ 
+  
+D ecem ber 2016 - N ovem ber 2019 
+Team Lead (Accenture) 
+U S 
+● Lead  d evelo p m en t team , an d  m an ag ed  d elivery o f a m o d u le. 
+● P rep ared  lo w -level d esig n  d o cu m en t 
+● D evelo p ed  M icro services in  Sp rin g B o o t. 
+● D esig n in g  an d  D eliverin g  co m p lex m o d u les in  IB M  W eb sp h ere 
+Fram ew o rk 
+● D evelo p ed  an d  u tilized  team  b u ild in g  exercises to  p ro m o te 
+w o rkp lace syn erg y an d  p ro d u ctivity. 
+ 
+  
+D ecem ber 2013 - N ovem ber 2016 
+Application Development Senior Analyst  (Accenture) 
+ 
+● P rep ared  lo w -level d esig n  d o cu m en t 
+● C reatin g  restfu l m icro services in  Sp rin g  B o o t. 
+● U sin g  P C F as P aaS to  d ep lo y Sp rin g  B o o t/A n g u lar ap p s.  
+● C reatin g  fro n t-en d  o n  A n g u lar 2.0  fram ew o rk. 
+● M ain tain s co d e an d  d o cu m en ts o n  "G IT "/”SV N ” 
+● C reated  th e JU N IT  test cases fo r th e ap p licatio n  
+● C reatin g  test cases fo r th e assig n ed  m o d u les 
+● H ave h an d s-o n  exp erien ce in  d evelo p in g  R E ST  Services an d  SO A P  
+Services. 
+● I h ave exp ertise o n  U I(C SS, JS,H T M L) 
+● M o d ified  existin g  so ftw are to  co rrect erro rs, ad ap t to  n ew  h ard w are 
+o r u p g rad e in terfaces. 
+----------------Page (2) Break----------------
+● W ro te w ell-d esig n ed , testab le co d e. 
+ 
+  
+N ovem ber 2011 - N ovem ber 2013 
+Application Development Analyst (Accenture) 
+ 
+● W o rked  o n  th e d esig n  an d  d evelo p m en ts o f JSR  286 P O R T LE T S (all 
+th e p o rtlets like U ser R eg istratio n , Lo g in , Services, feed b ack, 
+G rievan ces, etc.) 
+● D evelo p m en t o f p o rtlets 
+● D evelo p m en t o n  Stru ts2 fram ew o rk 
+● W o rked  o n  th e th em es an d  layo u ts o f p o rtal 
+● In vo lved  in  all th e B u ild  an d  d ep lo ym en t o n  Stag in g  an d  p ro d u ctio n  
+en viro n m en t u sin g  lin u x. 
+● H an d led  all th e ap p licatio n s fo r d evelo p m en t an d  su p p o rt as a so le 
+reso u rce. 
+● H ave d esig n ed  to o ls fo r th e P ro ject fo r b etter p ro d u ctivity like B irt 
+T o o l w h ich  is u sed  fo r rep o rtin g . 
+ 
+  
+July 2011 - O ctober 2011 
+Application Development Associate (Accenture) 
+ 
+● T h e ro le w as to  su p p o rt th e ap p licatio n  an d  su p p o rt th e related  
+issu e. 
+● W ro te SQ L statem en ts fo r q u eryin g  d atab ase an d  extractin g  d ata. 
+● D evelo p ed  tech n ical h an d b o o ks to  rep resen t d esig n  an d  co d e o f 
+n ew  ap p licatio n s. 
+EDUCATION 
+ 
+  
+M ay 2011  
+Bachelor of Science | In fo rm atio n  T ech n o lo g y 
+Jayp ee U n iversity o f In fo rm atio n  T ech n o lo g y, So lan , H im ach al 
+P rad esh  
+75%  
+ 
+.
+ 
+----------------Page (3) Break----------------
