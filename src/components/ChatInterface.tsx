@@ -50,7 +50,7 @@ export const ChatInterface = ({ initialQuery, onBack }: ChatInterfaceProps) => {
                 
                 🔹 <b>CardinalHealth:</b> He is currently architecting scalable systems, leading GKE cloud platform initiatives, and driving modernization efforts.<br><br>
                 
-                🔹 <b>AI Engineering & Automation:</b> He specializes in applying <b>LLMs to automate complex engineering tasks</b> and operational workflows. His current research, <i>"Leveraging LLMs for Automated Code Quality,"</i> focuses on building intelligent systems that reduce manual overhead and enforce high standards in DevSecOps pipelines.<br><br>                
+                🔹 <b>AI Engineering & Automation:</b> He is designing specialized <b>RAG-powered Chat Agents</b> for <b>eCommerce platforms</b>. His work focuses on orchestrating intelligent agents that automate complex workflows, enable context-aware product discovery, and streamline operational tasks.<br><br>                
                 🔹 <b>Background:</b> Previously, as a Java Full Stack Lead at Accenture, he managed a $5M portfolio and delivered complex Spring Boot microservices.`;
 
             } else if (lowerQ.includes('skill') || lowerQ.includes('stack') || lowerQ.includes('tech')) {
