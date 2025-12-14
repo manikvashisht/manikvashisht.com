@@ -75,7 +75,7 @@ export const ChatInterface = ({ initialQuery, onBack }: ChatInterfaceProps) => {
                 
                 What would you like to know?`;
 
-            } else if (lowerQ.includes('summary')) {
+            } else if (lowerQ.includes('summary') || lowerQ.includes('about')) {
                 response = `Seasoned <b>Software Architect</b> and Tech Lead with <b>14+ years</b> of experience designing scalable, distributed systems for Fortune 500 enterprises. I bridge the gap between robust <b>Cloud-Native Architecture</b>and emerging <b>Artificial Intelligence</b>.
                             Currently focused on engineering production-grade AI applications, I leverage deep expertise in Java/Spring microservices, GKE, and DevSecOps to build secure, high-performance RAG pipelines and autonomous agentic workflows. Proven track record of managing $5M+ portfolios and leading cross-functional teams through digital transformation.`;
 

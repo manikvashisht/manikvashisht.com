@@ -18,7 +18,7 @@ export const Hero = ({ onSearch }: HeroProps) => { // Changed prop name
     };
 
     return (
-        <div className="min-h-screen flex flex-col items-center pt-32 pb-20 relative">
+        <div className="min-h-screen flex flex-col items-center pt-24 md:pt-32 pb-20 relative">
 
             {/* Small Background Blur - Strictly positioned */}
             <div className="absolute top-[20%] left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-100/40 rounded-full blur-[100px] -z-10 pointer-events-none"></div>
@@ -27,9 +27,9 @@ export const Hero = ({ onSearch }: HeroProps) => { // Changed prop name
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="text-center mb-12 relative z-20"
+                className="text-center mb-8 md:mb-12 relative z-20 px-4"
             >
-                <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 tracking-tight mb-4">
+                <h1 className="text-4xl md:text-7xl font-extrabold text-gray-900 tracking-tight mb-4">
                     Hey, I'm Manik <span className="inline-block animate-bounce origin-bottom">👋</span>
                 </h1>
                 <p className="text-xl text-gray-500 font-medium">

@@ -31,10 +31,10 @@ export const EXPERIENCE_DATA = [
 
 export const Experience = () => {
     return (
-        <section id="experience" className="py-32 px-4 max-w-6xl mx-auto relative z-10">
+        <section id="experience" className="py-20 md:py-32 px-4 max-w-6xl mx-auto relative z-10">
 
-            <div className="mb-20">
-                <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-4">
+            <div className="mb-12 md:mb-20">
+                <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-4">
                     14+ Years of Engineering.
                 </h2>
                 <p className="text-xl text-gray-500 max-w-2xl">

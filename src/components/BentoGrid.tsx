@@ -12,7 +12,7 @@ export const BentoGrid = ({ onSearch }: BentoGridProps) => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="w-full max-w-6xl mx-auto px-4 pb-20 grid grid-cols-1 md:grid-cols-4 gap-6 relative z-10"
+            className="w-full max-w-6xl mx-auto px-4 pb-20 grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 relative z-10"
         >
             {/* Card 1: Me (Profile Photo) - Triggers Bio */}
             <div
