@@ -61,7 +61,7 @@ export const ChatInterface = ({ initialQuery, onBack }: ChatInterfaceProps) => {
                 💻 <b>Core Engineering:</b> Java (Full Stack Expert), Spring Boot, Distributed Systems, Microservices Design.`;
 
             } else if (lowerQ.includes('contact') || lowerQ.includes('email') || lowerQ.includes('location')) {
-                response = `Manik is based in <b>Columbus, Ohio</b> and is currently <b>Open to Work</b> for roles in Software Architecture or AI Engineering.<br><br>
+                response = `Manik is based in <b>Columbus, Ohio</b> and is currently <b>open for collaboration</b> for roles in Software Architecture or AI Engineering.<br><br>
                 
                 📧 <b>Email:</b> <a href="mailto:manik.vashisht89@gmail.com">manik.vashisht89@gmail.com</a><br>
                 🔗 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/manik-vashisht-263b692a/" target="_blank">View Profile</a><br>
