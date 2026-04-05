@@ -33,7 +33,7 @@ export const Hero = ({ onSearch }: HeroProps) => { // Changed prop name
                     Hey, I'm Manik <span className="inline-block animate-bounce origin-bottom">👋</span>
                 </h1>
                 <p className="text-xl text-gray-500 font-medium">
-                    Building the future with <span className="text-black font-semibold">AI & Architecture</span>
+                    Building the future with <span className="text-black font-semibold">Full Stack Engineering & Applied AI</span>
                 </p>
             </motion.div>
 

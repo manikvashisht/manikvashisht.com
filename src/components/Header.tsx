@@ -12,7 +12,7 @@ export const Header = () => {
                 <div className="bg-white/90 backdrop-blur-md border border-gray-200 shadow-sm rounded-full px-4 py-2 flex items-center gap-3 cursor-pointer hover:shadow-md transition-all">
                     <div className="w-2 h-2 rounded-full bg-black"></div>
                     <span className="text-sm font-bold tracking-tight">Manik Vashisht</span>
-                    <span className="text-xs text-gray-400 border-l border-gray-200 pl-3">AI Engineer</span>
+                    <span className="text-xs text-gray-400 border-l border-gray-200 pl-3">Full Stack & Applied AI Engineer</span>
                 </div>
             </motion.div>
 

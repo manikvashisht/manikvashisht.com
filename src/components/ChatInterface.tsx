@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { PaperAirplaneIcon, ArrowLeftIcon } from '@heroicons/react/24/solid';
+import { getYearsOfExperience } from '../utils';
 
 interface ChatInterfaceProps {
     initialQuery: string;
@@ -46,9 +47,9 @@ export const ChatInterface = ({ initialQuery, onBack }: ChatInterfaceProps) => {
             let response = "I can explore that with you. Would you like to see his Projects portfolio or Technical Skills?";
 
             if (lowerQ.includes('project') || lowerQ.includes('experience') || lowerQ.includes('work')) {
-                response = `Manik is a veteran Software Engineer with <b>14 years of experience</b>, including <b>7 years as a Tech Lead</b>.<br><br>
+                response = `Manik is a veteran Full Stack and Applied AI Engineer with <b>${getYearsOfExperience()} years of experience</b>, including <b>7+ years as a Tech Lead</b>.<br><br>
                 
-                🔹 <b>CardinalHealth:</b> He is currently architecting scalable systems, leading GKE cloud platform initiatives, and driving modernization efforts.<br><br>
+                🔹 <b>CardinalHealth:</b> Currently serving as Tech Lead in Supply Chain (DSCSA), leading Applied AI initiatives alongside large-scale Angular, Spring Boot, and GKE migrations to modernize enterprise infrastructure.<br><br>
                 
                 🔹 <b>AI Engineering & Automation:</b> He is designing specialized <b>RAG-powered Chat Agents</b> for <b>eCommerce platforms</b>. His work focuses on orchestrating intelligent agents that automate complex workflows, enable context-aware product discovery, and streamline operational tasks.<br><br>                
                 🔹 <b>Background:</b> Previously, as a Java Full Stack Lead at Accenture, he managed a $5M portfolio and delivered complex Spring Boot microservices.`;
@@ -56,9 +57,9 @@ export const ChatInterface = ({ initialQuery, onBack }: ChatInterfaceProps) => {
             } else if (lowerQ.includes('skill') || lowerQ.includes('stack') || lowerQ.includes('tech')) {
                 response = `Manik combines deep architectural expertise with modern AI Engineering capabilities:<br><br>
 
-                🚀 <b>AI & ML:</b> Python, RAG Architectures, LLM Integration, Prompt Engineering.<br>
-                ☁️ <b>Cloud & DevOps:</b> Google Kubernetes Engine (GKE), AWS, System Design (Scalability & Security).<br>
-                💻 <b>Core Engineering:</b> Java (Full Stack Expert), Spring Boot, Distributed Systems, Microservices Design.`;
+                🚀 <b>AI & ML:</b> Python, GenAI Agents, RAG Architectures, LLM Integration.<br>
+                ☁️ <b>Cloud & DevOps:</b> Google Kubernetes Engine (GKE), AWS, System Design.<br>
+                💻 <b>Full Stack Engineering:</b> Java, Spring Boot, SPA Frameworks (Angular/React), Distributed Systems.`;
 
             } else if (lowerQ.includes('contact') || lowerQ.includes('email') || lowerQ.includes('location')) {
                 response = `Manik is based in <b>Columbus, Ohio</b> and is currently <b>open for collaboration</b> for roles in Software Architecture or AI Engineering.<br><br>
@@ -71,13 +72,13 @@ export const ChatInterface = ({ initialQuery, onBack }: ChatInterfaceProps) => {
             } else if (lowerQ.includes('hello') || lowerQ.includes('hi') || lowerQ.includes('hey')) {
                 response = `Hello! 👋 I am Manik's AI Portfolio Assistant.<br><br>
                 
-                I can discuss his <b>14-year Engineering Journey</b>, his transition into <b>AI & Research</b>, his <b>Tech Stack</b>, or how to <b>Contact</b> him.<br><br>
+                I can discuss his <b>${getYearsOfExperience()}-year Engineering Journey</b>, his transition into <b>AI & Research</b>, his <b>Tech Stack</b>, or how to <b>Contact</b> him.<br><br>
                 
                 What would you like to know?`;
 
             } else if (lowerQ.includes('summary') || lowerQ.includes('about')) {
-                response = `Seasoned <b>Software Architect</b> and Tech Lead with <b>14+ years</b> of experience designing scalable, distributed systems for Fortune 500 enterprises. I bridge the gap between robust <b>Cloud-Native Architecture</b>and emerging <b>Artificial Intelligence</b>.
-                            Currently focused on engineering production-grade AI applications, I leverage deep expertise in Java/Spring microservices, GKE, and DevSecOps to build secure, high-performance RAG pipelines and autonomous agentic workflows. Proven track record of managing $5M+ portfolios and leading cross-functional teams through digital transformation.`;
+                response = `Seasoned <b>Full Stack and Applied AI Engineer</b> (Tech Lead) with <b>${getYearsOfExperience()}+ years</b> of experience designing scalable, distributed systems for Fortune 500 enterprises. I bridge the gap between robust <b>Full Stack Architecture (including SPA frameworks)</b> and emerging <b>Artificial Intelligence</b>.
+                            Currently serving as a Tech Lead in Supply Chain (DSCSA) at CardinalHealth, leading Applied AI initiatives and directing extensive Angular, Spring Boot, and GKE migration pipelines. I leverage deep expertise in microservices and DevSecOps to build secure, high-performance applications and autonomous agentic workflows. Proven track record of managing $5M+ portfolios and leading cross-functional teams through digital transformation.`;
 
             } else {
                 // Fallback block for unrecognized inputs

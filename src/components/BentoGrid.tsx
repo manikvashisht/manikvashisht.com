@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowUpRightIcon } from '@heroicons/react/24/outline';
 import profileImage from '../assets/Asset.jpg';
+import { getYearsOfExperience } from '../utils';
 
 interface BentoGridProps {
     onSearch: (query: string) => void;
@@ -40,7 +41,7 @@ export const BentoGrid = ({ onSearch }: BentoGridProps) => {
                     <span className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                         <ArrowUpRightIcon className="w-6 h-6" />
                     </span>
-                    <span className="text-5xl font-black text-gray-900 tracking-tighter">14+</span>
+                    <span className="text-5xl font-black text-gray-900 tracking-tighter">{getYearsOfExperience()}+</span>
                 </div>
                 <div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">Projects & Exp.</h3>
@@ -56,7 +57,7 @@ export const BentoGrid = ({ onSearch }: BentoGridProps) => {
                 <div>
                     <div className="text-xs font-mono text-gray-400 mb-6 border-b border-gray-700 pb-3 tracking-wider">STACK</div>
                     <div className="flex flex-wrap gap-2">
-                        {['Java', 'Python', 'Spring Boot', 'GKE', 'AWS', 'RAG Architecture', 'LLMs', 'Microservices'].map(tech => (
+                        {['Java', 'Python', 'SPA Frameworks', 'Angular', 'Spring Boot', 'GKE', 'AWS', 'RAG Architecture', 'LLMs', 'Microservices'].map(tech => (
                             <span key={tech} className="px-2 py-1 bg-white/10 rounded-lg text-xs font-medium">{tech}</span>
                         ))}
                     </div>
